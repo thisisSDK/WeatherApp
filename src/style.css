@@ -24,9 +24,18 @@ p {
 
 .five-day-forecast {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .five-day-img {
   width: 40px;
+  padding-bottom: 5px;
+}
+
+.day {
+  padding-right: 15px;
+}
+
+.temp {
+  padding-left: 15px;
 }

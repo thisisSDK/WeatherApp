@@ -22,12 +22,12 @@
     <div class="container">
       <header>
         <div class="row">
-          <h2 class="col-4">TUE</h2>
+          <h2 class="current-day col-4">TUE</h2>
           <!--add time under TUE, adjust positioning of line items in header-->
           <h1 class="col-4">
             Seattle, WA
           </h1>
-          <h2 class="col-4"><i class="fas fa-search"></i></h2>
+          <h2 class="search col-4"><i class="fas fa-search"></i></h2>
         </div>
       </header>
       <!--Forecast - wrap in a div then nest divs and orient as a row-->
@@ -44,37 +44,31 @@
         <div class="five-day-forecast col-6">
           <!--Am I overcomplicating this? What is the most efficient way to display the forecast? Is the <UL> necessary?-->
           <!--how do I center the below elements in their div?-->
-          <span
-            >WED
+          <span class="day">WED</span>
+          <img src="images/weather-clear-day.png" class="five-day-img" />
+          <span class="temp"> <strong>73°</strong>/61°</span>
+          <!--are there any other elements I can use in place of hr? so I can have more control over the length of the line.-->
+          <hr />
+          <span class="day">THU</span>
+          <img
+            src="images/weather-partly-cloudy-day.png"
+            class="five-day-img"
+          />
+          <span class="temp"> <strong>73°</strong>/61°</span>
+          <hr />
+          <span class="day">FRI</span>
             <img src="images/weather-clear-day.png" class="five-day-img" />
-            <strong>73°</strong>/61°</span
+            <span class="temp"><strong>73°</strong>/61°</span
           >
           <hr />
-          <span
-            >THU
-            <img
-              src="images/weather-partly-cloudy-day.png"
-              class="five-day-img"
-            />
-            <strong>73°</strong>/61°</span
-          >
-          <hr />
-          <span
-            >FRI
-            <img src="images/weather-clear-day.png" class="five-day-img" />
-            <strong>73°</strong>/61°</span
-          >
-          <hr />
-          <span
-            >SAT
+          <span class="day">SAT</span>
             <img src="images/weather-rain.png" class="five-day-img" />
-            <strong>73°</strong>/61°</span
+            <span class="temp"><strong>73°</strong>/61°</span
           >
           <hr />
-          <span
-            >SUN
+          <span class="day">SUN</span>
             <img src="images/weather-rain.png" class="five-day-img" />
-            <strong>73°</strong>/61°</span
+            <span class="temp"></span> <strong>73°</strong>/61°</span
           >
         </div>
       </div>
