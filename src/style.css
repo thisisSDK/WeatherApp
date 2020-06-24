@@ -1,6 +1,6 @@
 header {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 h1,
@@ -9,8 +9,13 @@ p {
   text-align: center;
 }
 
+.forecast {
+  text-align: center;
+  display: inline-block;
+}
+
 .current-forecast {
-  position: relative;
+  padding-top: 25px;
 }
 .current-forecast-txt {
   text-align: center;
