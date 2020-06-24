@@ -1,17 +1,28 @@
+body {
+  /* potential for having conditional background gradient / text color based on time of day
+ OPTION 1 -- background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
+  OPTION 2 -- background-image: linear-gradient(#ac32e4 0%, #7918f2 48%, #4801ff 100%);
+ OPTION 3 --  background-image: linear-gradient(#3ab5b0 0%, #3d99be 31%, #56317a 100%);*/
+  background-image: linear-gradient(#30cfd0 0%, #330867 100%);
+}
 header {
   padding-top: 50px;
   padding-bottom: 60px;
+  color: #fff;
 }
 
 h1,
 h2,
 p {
   text-align: center;
+  /* why doesn't color: #fff; work here to apply to all h1, h2, p tags? */
 }
 
 .forecast {
   text-align: center;
   display: inline-block;
+  padding-bottom: 100px;
+  color: #fff;
 }
 
 .current-forecast {
