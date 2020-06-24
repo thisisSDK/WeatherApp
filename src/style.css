@@ -4,8 +4,14 @@ p {
   text-align: center;
 }
 
+.current-forecast-txt {
+  text-align: center;
+  font-size: 35px;
+}
+
 .five-day-forecast {
   text-align: center;
+  font-size: 25px;
 }
 
 .five-day-img {
