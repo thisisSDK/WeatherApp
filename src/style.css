@@ -18,7 +18,7 @@ p {
   /* why doesn't color: #fff; work here to apply to all h1, h2, p tags? */
 }
 
-.search:hover {
+.bi-search:hover {
   color: #330867;
   transition: ease-in-out 300ms;
 }
