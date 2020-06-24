@@ -4,6 +4,10 @@ p {
   text-align: center;
 }
 
+.five-day-forecast {
+  text-align: center;
+}
+
 .five-day-img {
   width: 40px;
 }
