@@ -20,15 +20,19 @@
   <body>
     <!--Header Items - configure placement of date and search elements-->
     <div class="container">
-      <div class="row">
-        <h2 class="col-4">TUE</h2>
-        <h1 class="col-4">
-          Seattle, WA
-        </h1>
-        <h2 class="col-4"><i class="fas fa-search"></i></h2>
-      </div>
+      <header>
+        <div class="row">
+          <h2 class="col-4">TUE</h2>
+          <!--add time under TUE, adjust positioning of line items in header-->
+          <h1 class="col-4">
+            Seattle, WA
+          </h1>
+          <h2 class="col-4"><i class="fas fa-search"></i></h2>
+        </div>
+      </header>
       <!--Forecast - wrap in a div then nest divs and orient as a row-->
       <div class="row col-12">
+        <!--TO FINE TUNE - adjust current forecast with positioning-->
         <div class="current-forecast col-6">
           <img src="images/weather-partly-cloudy-day.png" />
           <br />
@@ -36,6 +40,7 @@
             ><strong>82°F</strong> Partly Cloudy</span
           >
         </div>
+        <!-- How can I adjust this breakpoint so the five-day-forecast goes below the current forecast when sized for mobile viewing?-->
         <div class="five-day-forecast col-6">
           <!--Am I overcomplicating this? What is the most efficient way to display the forecast? Is the <UL> necessary?-->
           <!--how do I center the below elements in their div?-->

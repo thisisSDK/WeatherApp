@@ -1,9 +1,17 @@
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 h1,
 h2,
 p {
   text-align: center;
 }
 
+.current-forecast {
+  position: relative;
+}
 .current-forecast-txt {
   text-align: center;
   font-size: 35px;
