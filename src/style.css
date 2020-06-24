@@ -20,7 +20,7 @@ p {
 
 .search:hover {
   color: #330867;
-  transition: ease-in-out 200ms;
+  transition: ease-in-out 300ms;
 }
 
 .forecast {
@@ -32,6 +32,10 @@ p {
 
 .current-forecast {
   padding-top: 25px;
+}
+
+.current-forecast-img {
+  padding-bottom: 15px;
 }
 .current-forecast-txt {
   text-align: center;
