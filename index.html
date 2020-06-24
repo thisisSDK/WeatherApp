@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/248582c920.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Graphic Weather App</title>
+  </head>
+  <body>
+    <!--Header Items - configure placement of date and search elements-->
+    <div class="container">
+      <div class="row">
+        <h2 class="col-4">TUE</h2>
+        <h1 class="col-4">
+          Seattle, WA
+        </h1>
+        <h2 class="col-4"><i class="fas fa-search"></i></h2>
+      </div>
+      <!--Forecast - wrap in a div then nest divs and orient as a row-->
+      <div class="forecast">
+        <div class="current-forecast">
+          <img src="images/Asset 1weather-partly-cloudy-day.png" />
+          <p><strong>82°</strong> Partly Cloudy</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
