@@ -30,12 +30,10 @@ p {
 .bi-search:hover {
   color: #330867;
   transition: ease-in-out 300ms;
-  size: 2em;
 }
 
 .forecast {
   text-align: center;
-  display: inline-block;
   padding-bottom: 100px;
   color: #fff;
 }
